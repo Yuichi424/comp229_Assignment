@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="../public/Content/app.css" type="text/css">
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-7"><%= title %> Me!</h1>
+       <form>
+            <div><label>First Name:<input type="text" name="fistName" placeholder="First name" ></label></div>
+            <div><label>Last Name:<input type="text" name="lastName" placeholder="Last name" ></label></div>
+            <div><label>Tel:<input type="tel" name="telNum" placeholder="(123)-457-8910"></label></div>
+            <div><label> Email: <input type="email" name="email" ></label></div>
+            <div><label>Message:<textarea name="comment" cols="40" rows="5"></textarea></label></div>
+                
+            <dv>
+                <!-- <button type="submit">submit</button>
+                <button type="reset">reset</button> -->
+                <a href="../views/home.ejs">SUBMIT</a>
+            </dv>
+        
+        </form>
+        
+    </div>
+    
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
