@@ -1,6 +1,8 @@
 module.exports = 
 {
-    "URI": "mongodb://127.0.0.1:27017/book_store",
-    //"URI": "mongodb+srv://thomas:Hq3DKYN2NaAqGyyV@mongodbserver.k15hk.azure.mongodb.net/book_store?retryWrites=true&w=majority",
+    //"URI": "mongodb://127.0.0.1:27017/book_store",
+    "URI": "mongodb+srv://Yuichi:LaFvkGtvIfzNReK0@mongodbserver.aqz3nlu.mongodb.net/book_store?retryWrites=true&w=majority",
     "Secret": 'SomeSecret'
 }
+
+//LaFvkGtvIfzNReK0
